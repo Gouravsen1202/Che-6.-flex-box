@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box container</title>
+    <style>
+
+        #container{
+            height: 300px;
+            width: 600px;
+            border: 3px solid black;
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: pink;
+        }
+        .box{
+            height: 70px;
+            width: 70px;
+            border: 3px solid black;
+            margin-right: 5px;
+            
+        
+        }
+
+        #box1{
+            background-color: blue;
+            text-align:center;
+            order: 3;
+        }
+        #box2{
+            background-color: rgb(153, 139, 51);
+            text-align: center;
+            order: 4;
+        }
+        #box3{
+            background-color: rgb(71, 153, 51);
+            text-align: center;
+            order: 2;
+        }
+        #box4{
+            background-color: rgb(153, 51, 51);
+            text-align: center;
+            order: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+            <div id="box1" class="box">box1</div>
+            <div id="box2" class="box">box2</div>
+            <div id="box3" class="box">box3</div>
+            <div id="box4" class="box">box4</div>
+
+    </div>
+    
+</body>
+</html>
